@@ -11,7 +11,7 @@
    <div class="mainer-container">
       <div class="mainer-container__list">
          <ul class="mainer-container__items">
-            <li class="mainer-container__item">Miners</li>
+            <li class="mainer-container__item mainer-mainer"><button></button><p>Miners</p></li>
             <li class="mainer-container__item"><button>add/change</button></li>
             <li class="mainer-container__item"><button>Remove</button></li>
             <li class="mainer-container__item"><button>Enable</button></li>
@@ -21,24 +21,25 @@
          </ul>
       </div>
       <div class="pool-container">
-         <table style="width:100%;
+         <table class="pool-container-table"style="width:100%;
          border-collapse: collapse">
             <thead>
-               <tr  style="border-bottom: 2px solid #cccccc;" >
-                  <td>Pool</td>
-                  <td>Status</td>
-                  <td>Priority</td>
-                  <td>Propers</td>
-                  <td>Coin</td>
+               <tr class="pool-container-table-padd"  style="border-bottom: 2px solid #cccccc;" >
+                  <td  align="center">Pool</td>
+                  <td  align="center"  >Status</td>
+                  <td  align="center" >Priority</td>
+                  <td  align="center" >Propers</td>
+                  <td  align="center" >Coin</td>
                </tr>
+            
             </thead>
-            <tbody>
-               <tr  style="border-bottom: 2px solid #cccccc; ">
-                  <td>
+            <tbody>   
+               <tr class="pool-container-table-padd" style="border-bottom: 2px solid #cccccc; ">
+                  <td  align="center" class="tableCheck">
                      <div class="table-checkbox">
 
                   <input type="checkbox" name="" id="">
-                     <div class="">
+                     <div class="tableCheck__left">
                         Test 1<br>
                         Test 1<br>
                         Test 1
@@ -47,42 +48,115 @@
                      </div>
                      
                   </td>
-                  <td><button>active</button></td>
-                  <td>Priority: 0</td>
-                  <td>Rejected: 220<br>Accept: 220</td>
-                  <td>BTC</td>
+                  <td align="center" class="tableButton tableButton-active"><button>active</button></td>
+                  <td  align="center">Priority: 0</td>
+                  <td  align="center">Rejected: 220<br>Accept: 220</td>
+                  <td  align="center">BTC</td>
                </tr>
-               <tr  style="border-bottom: 2px solid #cccccc; ">
-                  <td></td>
-                  <td><button>active</button></td>
-                  <td>Priority: 0</td>
-                  <td>Rejected: 220<br>Accept: 220</td>
-                  <td>BTC</td>
+               <tr  class="pool-container-table-padd"  style="border-bottom: 2px solid #cccccc; ">
+                  <td  align="center" class="tableCheck">
+                     <div class="table-checkbox">
+
+                  <input type="checkbox" name="" id="">
+                     <div class="tableCheck__left">
+                        Test 1<br>
+                        Test 1<br>
+                        Test 1
+                     </div> 
+
+                     </div>
+                     
+                  </td>
+                  <td align="center"  class="tableButton"><button>Disable</button></td>
+                  <td align="center">Priority: 0</td>
+                  <td align="center">Rejected: 220<br>Accept: 220</td>
+                  <td align="center">BTC</td>
                </tr>
+               <tr class="pool-container-table-padd pool-container-table-padd" style="border-bottom: 2px solid #cccccc; ">
+                  <td  align="center" class="tableCheck">
+                     <div class="table-checkbox">
+
+                  <input type="checkbox" name="" id="">
+                     <div class="tableCheck__left">
+                        Test 1<br>
+                        Test 1<br>
+                        Test 1
+                     </div> 
+
+                     </div>
+                     
+                  </td>
+                  <td align="center" class="tableButton tableButton-active"><button>active</button></td>
+                  <td  align="center">Priority: 0</td>
+                  <td  align="center">Rejected: 220<br>Accept: 220</td>
+                  <td  align="center">BTC</td>
+               </tr>
+
+
+
+
+<!-- вторая таблица  -->
+
                <table class="table_in_table">
                   <thead>
-                     <tr>
-                         <th>Number</th>
-                        <th>Temp</th>
-                        <th>Progress</th>
-                        <th>Perfomanse</th>
+                     <tr class="pool-container-table-padd" >
+                         <td align="center">Number</td>
+                        <td align="center">Temp</td>
+                        <td align="center">Progress</td>
+                        <td align="center">Perfomanse</td>
                      </tr>
                     
                   </thead>
                   <tbody>
-                     <tr>
-                        <td>
+                     <tr class="pool-container-table-padd" >
+                        <td align="center" >
                            Test 1<br>
                            Active</td>
-                        <td>
-                           69 C
+                        <td align="center">
+                           69 C 
                         </td>
-                        <td>
+                        <td align="center">
                            Accept: 220<br>
                            Rejected: 220<br>
                            HWerror: 220
                         </td>
-                        <td>
+                        <td align="center">
+                           RT: 220<br>
+                           Error 5: 220<br>
+                           Error 5: 220
+                        </td> 
+                     </tr>
+                     <tr class="pool-container-table-padd" >
+                        <td align="center" >
+                           Test 1<br>
+                           Active</td>
+                        <td align="center">
+                           69 C 
+                        </td>
+                        <td align="center">
+                           Accept: 220<br>
+                           Rejected: 220<br>
+                           HWerror: 220
+                        </td>
+                        <td align="center">
+                           RT: 220<br>
+                           Error 5: 220<br>
+                           Error 5: 220
+                        </td> 
+                     </tr>
+                     <tr class="pool-container-table-padd" >
+                        <td align="center" >
+                           Test 1<br>
+                           Active</td>
+                        <td align="center">
+                           69 C 
+                        </td>
+                        <td align="center">
+                           Accept: 220<br>
+                           Rejected: 220<br>
+                           HWerror: 220
+                        </td>
+                        <td align="center">
                            RT: 220<br>
                            Error 5: 220<br>
                            Error 5: 220
