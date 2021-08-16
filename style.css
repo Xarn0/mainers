@@ -549,7 +549,7 @@ display: block;
 .tableCheck__left {
 }
 .tableButton >button{
-padding: 4px 40px;
+padding: 4px 46px;
 outline: none;
 background-color:#b00633;
 border:2.5px solid rgb(132, 181, 255);
@@ -558,8 +558,12 @@ color: #fff;
 
 }
 .tableButton-active>button{
-  background-color:#3cad54 ; 
+  background-color:#00AF4C ; 
+  padding: 4px 46px;
+  text-align: left;
+  margin-bottom: 5px;
 }
+
 /* .Прямоугольник_11 {
   border-width: 1.87px;
   border-color: rgb(125, 176, 248);
@@ -589,6 +593,7 @@ color: #fff;
 
 .configuration-container {
    background-color: #3f474e;
+   padding-bottom: 50px;
 }
 .configuration-container__header {
    display: flex;
@@ -643,11 +648,16 @@ color: #fff;
 
 
  .configuration-container__body__label{
-width: 80%;
+width: 60%;
  display: flex;
  justify-content: space-between;
  flex-wrap: wrap;
  margin: 12px auto;
+ }
+ @media (min-width:1500px){
+   .configuration-container__body__label{
+      width: 39%;
+   }
  }
  .configuration-container__body__label>input{
     border-radius: 10px;
@@ -668,3 +678,109 @@ width: 80%;
     justify-content: flex-end;
     margin-top: 20px;
  }
+
+
+ /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+ .button-working {
+
+}
+@media (max-width:935px){
+   .button-working__item {
+      margin-top: 18px;
+   }
+}
+.button-working__list {
+   display: flex;
+   list-style-type: none;
+   flex-wrap: wrap;
+   margin: 12px 0px;
+   justify-content: flex-start;
+ 
+}
+.button-working__item {
+   padding: 5px 30px;
+   border:2.5px solid rgb(132, 181, 255) ;
+   border-radius: 10px;
+     font-size: 16px;
+     margin-right: 17px;
+}
+.description {
+   border-collapse: collapse;
+   width: 100%;
+  
+   color: #fff;
+}
+@media (max-width:1000px){
+   .description{
+      margin: 0 15px;
+      width: 90%;
+      font-size: 15px;
+      overflow: hidden;
+   }
+  .descriotion-item:nth-child(3){
+     display: none;
+  }
+  .Perfomance__adept{
+     display: none;
+  }
+  .Coin__adept{
+     display: none;
+  }
+  .descriotion-item:nth-child(5){
+   display: none;
+}
+}
+.descriotion-item {
+   text-align: left;
+}
+.tableButton {
+}
+
+.line-tr{
+   border-bottom: 2px solid #cccccc ;
+}
+.fw-text{
+   font-weight: 600;
+}
+
+
+
+/* вторая таблица в информации */
+
+.pools-table-in-information {
+   border-collapse: collapse;
+   width: 100%;
+   color: #fff;
+   margin: 19px 0;
+   padding: 30px;
+}
+.pool-container-table-padd {
+}
+.line-tr {
+}
+.descriotion-item {
+}
+.tableButton {
+}
+.tableButton-active {
+}
+.pools-table-in-information-string{
+   padding-top:  30px;
+   border-bottom: 2.5px solid rgb(132, 181, 255) ;
+}
+.temperatura{
+   color:#00AF4C ;
+}
+.des-item{
+   margin-bottom: -12px;
+}
+.header-h4{
+   color: #fff;
+   font-size: 24px;
+}
+.container-one{
+   width: 80%;
+   margin: 0 auto;
+}
