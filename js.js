@@ -60,3 +60,21 @@ stringMainers.forEach(item=>{
 })
 })
 
+
+
+
+let burger = document.querySelector(".header-burger");
+let header_burge_body = document.querySelector('.header-burge-body');
+let spans_burger = document.querySelectorAll(".header-burger-pal");
+let listHeader = document.querySelector(".header-main__items");
+
+burger.addEventListener("click",()=>{
+   header_burge_body.classList.toggle("d-n");
+   spans_burger[1].classList.toggle("d-n");
+   spans_burger[0].classList.toggle("header-burger-pal-left-active");
+   spans_burger[2].classList.toggle("header-burger-pal-right-active");
+
+   if(header_burge_body.classList.contains("d-n") == false){
+      header_burge_body.append(listHeader);
+   }
+})

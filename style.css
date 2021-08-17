@@ -1,7 +1,7 @@
 @font-face {
    font-family: "vendroR";
-   src: url("font/Verdana-Bold.woff2") format("woff2");
-   src: url("font/Verdana-Bold.woff") format("woff");
+   src: url("font/Verdana.woff2") format("woff2");
+   src: url("font/Verdana.woff") format("woff");
   /* font-weight: 100; */
 }
 
@@ -49,6 +49,38 @@ html,body{
    /* padding: 10px 4px 5px 6px; */
    color: #fff;
 }
+
+.header-burger {
+position: relative;
+display: none;
+}
+
+.header-burger-pal {
+   height: 3px;
+   width: 20px;
+   background: #000;
+   display: block;
+   margin: 4px 0 ;
+   transition: transform 1s, display 1.2s;
+   /* position: relative; */
+}
+.header-burger-pal-left-active{
+   transform: rotate(45deg);
+   position: absolute;
+}
+.header-burger-pal-right-active{
+   transform: rotate(-45deg);
+   left: 0;
+   top: 0;
+   position: absolute;
+}
+.header-burge-body {
+}
+.d-n{
+   display: none;
+}
+
+
 .header-main__items {
    list-style-type: none;
    display: flex;
@@ -743,7 +775,7 @@ width: 60%;
    border-bottom: 2px solid #cccccc ;
 }
 .fw-text{
-   font-weight: 600;
+   font-weight: 700;
 }
 
 
@@ -864,4 +896,20 @@ width: 60%;
    .pools-table-in-information{
       width: 770px;
    }
+}
+@media (max-width:850px){
+   .header-burger{
+      display: block;
+      margin: 10px;
+   }
+   .header-main__items{
+      display: none;
+   }
+    .header-burge-body>.header-main__items{
+       display: block;border: none;
+    }
+    .header-burge-body>.header-main__items>li{
+       text-align: center;
+       border: none;
+    }
 }
