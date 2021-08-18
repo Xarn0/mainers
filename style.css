@@ -546,7 +546,7 @@ display: block;
    display: flex;
   
 }
-.mainer-mainer>button{
+.mainer-mainer>a{
    border-radius: 50%;
    background-image: url("img/arrow.svg");
    background-repeat: no-repeat;
@@ -554,9 +554,9 @@ display: block;
    background-position: center;
    border: none;
    background-size: 70%;
-   width: 30px;
-   height: 30px; 
-   padding: 15px;
+   width: 10px;
+   height: 10px; 
+   padding: 12px;
 }
 .mainer-mainer p{
    align-self:center;
