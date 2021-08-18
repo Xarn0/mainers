@@ -957,6 +957,10 @@ width: 60%;
    background: #3f474e;
    
 }
+.configuration-container__item-url{
+   color: #fff;
+   text-decoration: none;
+}
 /* .Logs {
   font-size: 24px;
   font-family: "Verdana";
