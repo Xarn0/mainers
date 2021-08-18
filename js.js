@@ -1,22 +1,47 @@
 let stringMainers = document.querySelectorAll(".mainers-string-main");
 let dashbord = document.querySelector(".dashbord");
 let mainers = document.querySelector(".mainers");
+// let listBar = document.querySelector(".main__list ");
+// let conteiner = document.querySelector(".")
+// console.log(listBar.children);
+// 
+// listBar.addEventListener("click",(e)=>{
+//    console.log(e.target);
+//    
+//    for(let i = 0 ; i < listBar.children.length  ; i++){
+// 
+// 
+//       if(e.target == listBar.children[i]){
+//          listBar.children[i].style.dispaly = "block";
+//          console.log('1');
+//          
+//       }
+//       else{
+//          listBar.children[i].style.dispaly = "none";
+//       console.log('2');
+//    }
+//       }
+//       
+//    
+// })
+
+// !dashbord.addEventListener('click',()=>{
+//    dashbord.classList.add("active-menu");
+//    mainers.classList.remove("active-menu");
+//    document.querySelector(".main__dashbord").style.display = "block";
+//    document.querySelector(".main__miners").style.display = "none";
+// })
+// 
+// mainers.addEventListener('click',()=>{
+//    mainers.classList.add("active-menu");
+//    dashbord.classList.remove("active-menu");
+//    document.querySelector(".main__dashbord").style.transition = "all .3s";
+//    document.querySelector(".main__dashbord").style.display = "none";
+//    document.querySelector(".main__miners").style.display = "block";
+// !})
+// 
 
 
-dashbord.addEventListener('click',()=>{
-   dashbord.classList.add("active-menu");
-   mainers.classList.remove("active-menu");
-   document.querySelector(".main__dashbord").style.display = "block";
-   document.querySelector(".main__miners").style.display = "none";
-})
-
-mainers.addEventListener('click',()=>{
-   mainers.classList.add("active-menu");
-   dashbord.classList.remove("active-menu");
-   document.querySelector(".main__dashbord").style.transition = "all .3s";
-   document.querySelector(".main__dashbord").style.display = "none";
-   document.querySelector(".main__miners").style.display = "block";
-})
 // console.log(contentMainers.classList.has("acrive-string"));
 // function contentMain(){
 //    contentMainers.forEach(item=>{

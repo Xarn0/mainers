@@ -132,7 +132,18 @@ color: #fff;
 }
 
 /* dASHBOARD ............................................................................................................................................................*/
-
+.main-conteiner{
+   flex-basis: 90%;
+   width: 87%;
+}
+@media (max-width:900px){
+.adaptic{
+   width: 100%;
+}
+.main-conteiner{
+   width: 100%;
+}
+}
 .main__dashbord {
    flex-basis: 100%;
    transition: all 3s;
@@ -485,8 +496,10 @@ display: block;
 
 .mainer-container {
    background: #3f474e;
+   margin: 5px;
    
 }
+
 .mainer-container__list {
    background: #000;
   padding: 10px;;
@@ -626,6 +639,8 @@ color: #fff;
 
 .configuration-container {
    background-color: #3f474e;
+   padding: 10px;
+   margin: 10px;
    padding-bottom: 50px;
 }
 .configuration-container__header {
@@ -688,6 +703,8 @@ width: 60%;
  flex-wrap: wrap;
  margin: 12px auto;
  }
+
+ 
  @media (min-width:1500px){
    .configuration-container__body__label{
       width: 39%;
@@ -822,9 +839,12 @@ width: 60%;
 
 
 /* ..................................................................................................... */
-
+.adaptic{
+   flex-basis: 90%;
+   /* overflow: hidden; */
+}
 .tableLast {
-   margin:  20px auto;
+   margin:  10px auto;
   /* background: #000; */
   width:550px;
   padding-right: 20px;
@@ -833,7 +853,10 @@ width: 60%;
    margin: 5px
   /* overflow-x:auto; */
 }
-
+.tableLast::-webkit-scrollbar{
+   width: 0;
+   
+}
 .tableLast-main {  
   
   
@@ -926,6 +949,13 @@ width: 60%;
 }
 .tableLogs>p{
    margin-bottom: 7px;
+}
+.tableEnd caption{
+   border:0.52px solid #1e7497  ;
+   padding: 6px 5px;
+   margin: 10px 16px 5px 16px;
+   background: #3f474e;
+   
 }
 /* .Logs {
   font-size: 24px;
@@ -1048,5 +1078,15 @@ width: 60%;
       width:100%;
       overflow-x: auto;
       padding-right: 0px;
+   }
+}
+@media (max-width:900px){
+   .mainer-container{
+      margin: 0;
+      margin-bottom: 10px;
+      /* margin-top: 2px; */
+   }
+   .configuration-container{
+      margin: 4px 0 ;
    }
 }
