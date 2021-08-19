@@ -8,6 +8,7 @@ $(document).ready(()=>{
       // easing:'ease',
       infinite:false,
       draggable:false,
-     swipe:false
+      swipe:false,
+      adaptiveHeight:true
    })
 })
