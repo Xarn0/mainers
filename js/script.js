@@ -7,8 +7,7 @@ $(document).ready(()=>{
       // slidesToScroll:1,
       // easing:'ease',
       infinite:false,
-      // lazyLoad: 'ondemand',
-      // centerMode: true
-      // fade:true
+      draggable:false,
+     swipe:false
    })
 })
