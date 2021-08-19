@@ -566,7 +566,8 @@ display: block;
 }
 .mainer-mainer p{
    align-self:center;
-   padding-bottom: 30px;
+   margin-left: 3px;
+   /* padding-bottom: 30px; */
    /* padding-top: 10px; */
 }
 .pool-container-table{
