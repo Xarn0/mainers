@@ -9,7 +9,11 @@
 *{
    margin: 0;
    padding: 0;
+   
    font-family:"vendroR" ;
+}
+p,span,td,tr,th,div{
+   cursor: default;
 }
 @media (max-width:800px){
  
