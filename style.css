@@ -609,6 +609,10 @@ display: block;
    text-align: left;
    width: 299px;
 }
+.tableCheck__left>a{
+   text-decoration: none;
+   color: #fff;
+}
 .tableButton >button{
 padding: 4px 46px;
 outline: none;
